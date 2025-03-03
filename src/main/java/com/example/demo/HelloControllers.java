@@ -11,7 +11,7 @@ public class HelloControllers {
         return "Hello";
     }
 
-    @GetMapping()
+    @GetMapping("d")
     public String getData(){
         return "Get Data";
     }
